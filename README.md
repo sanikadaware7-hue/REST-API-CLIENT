@@ -30,3 +30,6 @@ Data Deserialization and JSON Parsing
 
 Once the raw data is captured as a string, it must undergo Deserialization to become useful to the application. The program uses the JSON (JavaScript Object Notation) format, which is the industry standard for REST APIs due to its lightweight nature and hierarchical structure. Through the JSONObject library, the application maps the flat text response into an object-oriented tree. This allows the program to programmatically "navigate" to the current_weather node and extract specific attributes like temperature and wind speed. This process highlights the Separation of Concerns, where the networking logic (fetching) is distinct from the business logic (parsing and displaying), making the code easier to maintain and scale.
 
+OUTPUT :
+
+<img width="1914" height="1075" alt="Image" src="https://github.com/user-attachments/assets/11d3dcb6-5ad0-49fb-bfab-0f3ef6d25fd9" />
